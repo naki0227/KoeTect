@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS
+.DS_Store
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# Electron build output
+dist-electron/
+release/
+*.dmg
+*.exe
+*.AppImage
+
+# iOS build output
+ios/App/Pods/
+ios/App/build/
+ios/App/DerivedData/
+
+# Android build output
+android/app/build/
+android/.gradle/
