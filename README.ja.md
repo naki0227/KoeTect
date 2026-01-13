@@ -1,7 +1,7 @@
-# KoeTekt - AI Spatial Architect 🏗️
+# KoeTekt (コエテクト) - AI Spatial Architect 🏗️
 
 <p align="center">
-  <b>"Words Become Space."</b><br>
+  <b>「言葉が、空間になる。」</b><br>
   Text-to-3D Scene Director powered by Gemini & React Three Fiber
 </p>
 
@@ -10,37 +10,35 @@
 
 ---
 
-[🇯🇵 Japanese (日本語)](README.ja.md)
+## 📖 概要 (Overview)
 
-## 📖 Overview
+**KoeTekt** は、テキストや音声入力から **「3D空間」** と **「演出（カメラワーク・照明・動き）」** をリアルタイムに生成するAIアーキテクトツールです。
+Google Gemini のマルチモーダル能力を使って「森の中で静かに佇む古代の遺跡」といった抽象的な指示を解釈し、3Dオブジェクトの配置、ライティング、環境音、そしてカメラカットまでを全自動でディレクションします。
 
-**KoeTekt** is an AI architect tool that generates **"3D Spaces"** and **"Direction (Camera work, Lighting, Motion)"** in real-time from text or voice input.
-Using the multimodal capabilities of Google Gemini, it interprets abstract instructions like "ancient ruins standing quietly in a forest" and fully directs everything from 3D object placement, lighting, and environmental sounds to camera cuts.
-
-## ✨ Key Features
+## ✨ 特徴 (Key Features)
 
 ### 1. 🎬 AI Director System
-* **Overview:** An AI system that acts like a film director.
-* **Features:**
-    * **Scene Builder:** Generates and places optimal 3D assets (geometry) from prompts.
-    * **Camera Work:** Automatically generates cinematic camera paths based on instructions like "Dramatic" or "Overhead view".
-    * **Atmosphere:** Dynamically controls lighting and environmental effects (Fog, Particles).
+* **概要:** 映画監督のように振る舞うAIシステム。
+* **機能:**
+    * **Scene Builder:** プロンプトから最適な3Dアセット（ジオメトリ）を生成・配置。
+    * **Camera Work:** 「ドラマチックに」「俯瞰で」といった指示に基づき、Cinematicなカメラパスを自動生成。
+    * **Atmosphere:**  照明（Lighting）や環境効果（Fog, Particles）を動的に制御。
 
-### 2. Physics & Logic
-* **Technology:** Uses `Rapier Physics` to give gravity and collision detection to generated objects. It can generate dynamic scenes like crumbling ruins or rolling balls.
+### 2. 物理演算とインタラクション (Physics & Logic)
+* **技術:** `Rapier Physics` を採用し、生成されたオブジェクトに重力や衝突判定を付与。積み木のように崩れる遺跡や、転がるボールなどの動的なシーンも生成可能です。
 
 ### 3. Cross-Platform "Spatial" App
-* **Web:** Vite + React for high-speed preview.
-* **Mobile (iOS):** AR experience using Capacitor (Planned).
-* **Desktop (Electron):** Supports high-resolution rendering and video export.
+* **Web:** Vite + React による高速プレビュー。
+* **Mobile (iOS):** Capacitorを使用したAR体験（予定）。
+* **Desktop (Electron):** 高解像度レンダリングと動画書き出しに対応。
 
 ### 4. 💎 Economy & Pro Tools
-* **Gem System:** Gems are used for advanced generation features and premium assets.
-* **Export:** Export generated scenes as video (.mp4) or 3D models (.gltf).
+* **Gem System:** 高度な生成機能やプレミアムアセットの使用にはジェムを使用。
+* **Export:** 生成したシーンを動画（.mp4）や3Dモデル（.gltf）としてエクスポート可能。
 
 ---
 
-## 🛠 Tech Stack
+## 🛠 技術スタック (Tech Stack)
 
 | Category | Technology | Usage |
 | :--- | :--- | :--- |
@@ -54,9 +52,9 @@ Using the multimodal capabilities of Google Gemini, it interprets abstract instr
 
 ---
 
-## 🏗️ Architecture
+## 🏗️ アーキテクチャ (Architecture)
 
-Adopts an **ECS (Entity Component System)**-like design, where the "System" interprets instructions from the AI and reflects them in the 3D space.
+**ECS (Entity Component System)** ライクな設計を採用し、AIからの指示を「システム」が解釈して3D空間に反映します。
 
 ```mermaid
 graph TD
@@ -93,7 +91,7 @@ graph TD
 
 ---
 
-## 🚀 Getting Started
+## 🚀 セットアップ (Getting Started)
 
 ### Prerequisites
 * Node.js 20+
@@ -130,7 +128,7 @@ graph TD
 
 ---
 
-## 👨‍💻 Developer
+## 👨‍💻 開発者 (Developer)
 **Enludus**
 
 Focus: AI x 3D Procedural Generation
