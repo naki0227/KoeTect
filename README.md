@@ -134,7 +134,7 @@ graph TD
 **Enludus**
 
 Focus: AI x 3D Procedural Generation
-Contact: https://enludus.vercel.app
+Contact: https://enludus.com
 
 <p align="center"> 
     © 2025 KoeTekt Project. All rights reserved. 
